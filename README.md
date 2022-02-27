@@ -1,3 +1,6 @@
+# Screenshot
+![](https://github.com/dumadoniagara/react-google-maps-autocomplete/blob/master/public/preview.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
