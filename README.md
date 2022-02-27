@@ -1,5 +1,5 @@
 # Screenshot
-![](https://github.com/dumadoniagara/react-google-maps-autocomplete/blob/master/public/preview.gif)
+![](https://github.com/dumadoniagara/react-google-maps-autocomplete/blob/master/public/preview-screenshot.gif)
 
 # Getting Started with Create React App
 
