@@ -10,23 +10,24 @@ function App() {
 
   const MapLayout = () => {
     return (
-      <Box sx={{ bgcolor: '#f35c27', height: '100vh', p: 2 }}>
-        <Typography variant="h3" color="#eaeaea" sx={{ textAlign: 'center' }} >
+      <Box sx={{ bgcolor: '#ffffff', height: '100vh', p: 2 }}>
+        <Typography variant="h4" color="#ffad00" sx={{ textAlign: 'center', fontWeight: 'medium' }} >
           Google Place Autocomplete
         </Typography>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 5 }}>
           <Box
             sx={{ p: 1, display: 'flex', justifyContent: 'space-between' }}
           >
-            <Box sx={{ marginRight: 5 }}>
-              <SearchBox />
-              <Location />
-            </Box>
+
             <Box sx={{ flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
               <Map
-                containerElement={<div style={{ height: '500px', width: '700px' }} />}
+                containerElement={<div style={{ height: '500px', width: '600px' }} />}
                 mapElement={<div style={{ height: `100%` }} />}
               />
+            </Box>
+            <Box sx={{ p: 5, bgcolor: '#ffad00', width: '500px', borderTopRightRadius: '15px', borderBottomRightRadius: '15px' }}>
+              <SearchBox />
+              <Location />
             </Box>
           </Box>
         </Box>

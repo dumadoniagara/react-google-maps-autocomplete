@@ -102,7 +102,7 @@ export default function SearchBox() {
                     dispatch(setAddress(newInputValue))
                 }}
                 renderInput={(params) => (
-                    <TextField {...params} sx={{ input: { color: '#eaeaea' }, label: { color: '#eaeaea' } }} label="Search location.." fullWidth />
+                    <TextField {...params} sx={{ input: { color: '#ffffff' }, label: { color: '#ffffff' } }} label="Search location.." fullWidth />
                 )}
                 renderOption={(props, option) => {
                     const matches = option.structured_formatting.main_text_matched_substrings;
